@@ -228,6 +228,7 @@ namespace LaddersAndSnakes
             {
                 Console.WriteLine("Player points:");
                 Console.WriteLine(player.name + "-" + player.points);
+                Console.WriteLine();
                 diceSum = player.throwDice();
                 player.points += diceSum;
                 indexes = getIndexes(player);
@@ -239,6 +240,7 @@ namespace LaddersAndSnakes
 
                 Console.WriteLine("Bot points:");
                 Console.WriteLine(bot.name + "-" + bot.points);
+                Console.WriteLine();
                 diceSum = bot.throwDice();
                 bot.points += diceSum;
                 indexes = getIndexes(bot);
